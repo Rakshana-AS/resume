@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,6 +12,7 @@
             padding: 0;
             background-color: #f4f4f4;
         }
+
         .container {
             width: 90%;
             max-width: 1200px;
@@ -19,8 +21,10 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             display: flex;
             flex-direction: row;
-            flex-wrap: nowrap; /* Ensure that the columns stay side by side */
+            flex-wrap: nowrap;
+            /* Ensure that the columns stay side by side */
         }
+
         /* Left Column */
         .left {
             width: 35%;
@@ -28,8 +32,10 @@
             padding: 20px;
             text-align: center;
             border-right: 2px solid #ddd;
-            box-sizing: border-box; /* Ensure padding is included in width */
+            box-sizing: border-box;
+            /* Ensure padding is included in width */
         }
+
         .left img {
             border-radius: 50%;
             width: 150px;
@@ -37,21 +43,25 @@
             object-fit: cover;
             margin-bottom: 20px;
         }
+
         .left h1 {
             font-size: 26px;
             color: #333;
             margin: 5px 0;
         }
+
         .left h2 {
             color: #e2b007;
             font-size: 24px;
             margin: 0;
         }
+
         .left p {
             color: #888;
             margin-bottom: 20px;
             font-size: 18px;
         }
+
         .section-title {
             font-weight: bold;
             font-size: 18px;
@@ -61,15 +71,27 @@
             display: inline-block;
             padding-bottom: 5px;
         }
-        .left .info, .left .skills, .left .languages, .left .hobby {
+
+        .left .info,
+        .left .skills,
+        .left .languages,
+        .left .hobby {
             text-align: left;
             margin-bottom: 20px;
         }
-        .left .info p, .left .skills p, .left .languages p, .left .hobby p {
+
+        .left .info p,
+        .left .skills p,
+        .left .languages p,
+        .left .hobby p {
             margin: 10px 0;
             font-size: 14px;
         }
-        .left .info span, .left .skills span, .left .languages span , .left .hobby span {
+
+        .left .info span,
+        .left .skills span,
+        .left .languages span,
+        .left .hobby span {
             font-weight: bold;
             color: #333;
         }
@@ -78,32 +100,39 @@
         .right {
             width: 65%;
             padding: 20px;
-            box-sizing: border-box; /* Ensure padding is included in width */
+            box-sizing: border-box;
+            /* Ensure padding is included in width */
         }
+
         .right h3 {
             font-size: 16px;
             font-weight: bold;
             color: #333;
             margin-bottom: 5px;
         }
+
         .right h4 {
             color: #e2b007;
             margin-top: 5px;
             margin-bottom: 15px;
         }
+
         .right p {
             color: #555;
             margin-bottom: 20px;
         }
+
         .right .date {
             font-style: italic;
             color: #999;
             float: right;
         }
+
         ul {
             list-style: none;
             padding: 0;
         }
+
         ul li {
             margin-bottom: 10px;
         }
@@ -111,10 +140,14 @@
         /* Responsive Design */
         @media (max-width: 768px) {
             .container {
-                flex-direction: column; /* Stack columns on smaller screens */
+                flex-direction: column;
+                /* Stack columns on smaller screens */
             }
-            .left, .right {
-                width: 100%; /* Full width on small screens */
+
+            .left,
+            .right {
+                width: 100%;
+                /* Full width on small screens */
                 border-right: none;
             }
         }
@@ -124,21 +157,27 @@
                 width: 120px;
                 height: 120px;
             }
+
             .left h1 {
                 font-size: 22px;
             }
+
             .left h2 {
                 font-size: 20px;
             }
-            .left p, .right p {
+
+            .left p,
+            .right p {
                 font-size: 16px;
             }
+
             .right h3 {
                 font-size: 14px;
             }
         }
     </style>
 </head>
+
 <body>
 
     <div class="container">
@@ -146,44 +185,42 @@
         <div class="left">
             <img src="Rakshana A S - photo.jpg" alt="Profile Picture">
             <h1>RAKSHANA</h2>
-            <h2>SIVAGNANAM</h2>
-           
-            
-            <div class="info">
-                <h3 class="section-title">Contacts</h3>
-                <p><span>Phone:</span> +91 8072128325</p>
-                <p><span>Email:</span> rakshanasivagnanam02@gmail.com</p>
-                <p><span>LinkedIn:</span> <a href="https://www.linkedin.com/in/rakshana-sivagnanam-6b1429201/" target="_blank">rakshana-sivagnanam</a></p>
-                <p><span>GitHub:</span> <a href="https://github.com/Rakshana-AS" target="_blank">Rakshana-AS</a></p>
-                <p><span>Address:</span> 63, Subramaniyapuram, Mohanur, Namakkal.</p>
-            </div>
+                <h2>SIVAGNANAM</h2>
 
-            <div class="skills">
-                <h3 class="section-title">Skills</h3>
-                <p><span>Digital Electronics</span></p>
-                <p><span>Java</span></p>
-                
-            </div>
-            
-            <div class="languages">
-                <h3 class="section-title">Languages</h3>
-                <p><span>Tamil</span></p>
-                <p><span>English</span></p>
-                <p><span>Japanese</span></p>
-            </div>
-            <div class="hobby">
-                <h3 class="section-title">Hobbies</h3>
-                <p><span>Photography</span></p>
-                
-                <p><span>Listening to podcast</span></p>
-            </div>
+
+                <div class="info">
+                    <h3 class="section-title">Contacts</h3>
+                    <p><span>Phone:</span> +91 8072128325</p>
+                    <p><span>Email:</span> rakshanasivagnanam02@gmail.com</p>
+                    <p><span>LinkedIn:</span> <a href="https://www.linkedin.com/in/rakshana-sivagnanam-6b1429201/"
+                            target="_blank">rakshana-sivagnanam</a></p>
+                    <p><span>GitHub:</span> <a href="https://github.com/Rakshana-AS" target="_blank">Rakshana-AS</a></p>
+
+                </div>
+
+                <div class="skills">
+                    <h3 class="section-title">Skills</h3>
+                    <p><span>Java</span></p>
+                    <p><span>Java Script</span></p>
+                    <p><span>Quality Analysis</span></p>
+                    <p><span>GCP</span></p>
+                </div>
+
+                <div class="languages">
+                    <h3 class="section-title">Languages</h3>
+                    <p><span>Tamil</span></p>
+                    <p><span>English</span></p>
+                    <p><span>Japanese</span></p>
+                </div>
+
         </div>
 
         <!-- Right Side -->
         <div class="right">
             <div class="profile">
                 <h3 class="section-title">Profile</h3>
-                <p>Aspiring front-end developer with a background in Electronics and Communication Engineering. Enthusiastic about developing user-friendly web solutions.</p>
+                <p>Dedicated Analyst and Frontend Developer with experience in NLP blueprint creation, quality analysis,
+                    cloud tools, and responsive web applications. </p>
             </div>
 
             <div class="work-experience">
@@ -194,16 +231,6 @@
                         <h4>M.Kumarasamy College of Engineering</h4>
                         <p>Graduated in Electronics and Communication Engineering with 75%.</p>
                     </li>
-                    <li>
-                        <h3>HSC <span class="date">2019 - 2020</span></h3>
-                        <h4>Little Angels Matric and Higher Secondary School</h4>
-                        <p>Completed Higher Secondary Education with 65%.</p>
-                    </li>
-                    <li>
-                        <h3>SSLC <span class="date">2017 - 2018</span></h3>
-                        <h4>Rasi Matric Higher Secondary School</h4>
-                        <p>Completed Secondary Education with 86%.</p>
-                    </li>
                 </ul>
             </div>
 
@@ -211,24 +238,26 @@
                 <h3 class="section-title">Projects</h3>
                 <ul>
                     <li>
-                        <h3>Climate Adaptive Street Light Glowing System <span class="date">2022</span></h3>
-                        <p>Designed a climate-adaptive street light system adjusting brightness based on weather.</p>
+                        <h3>Expense Tracker<span class="date">2025</span></h3>
+                        <p>Built a mobile-friendly app to manage expenses using HTML, CSS, JS, Java, and MySQL.
+                            Implemented responsive design principles and database integration for seamless user
+                            experience.</p>
                     </li>
                     <li>
-                        <h3>VLSI Design of Advanced Encryption Standard <span class="date">2024</span></h3>
-                        <p>Designed and implemented AES encryption algorithm using Verilog HDL.</p>
+                        <h3>Blueprint Creation<span class="date">2025</span></h3>
+                        <p>Worked as a team member and performed quality analyst tasks ensuring accuracy with Amazon
+                            SageMaker. Contributed to NLP model development and validation processes.</p>
                     </li>
-                    <li>
-                        <h3>Responsive Portfolio Website <span class="date">2023</span></h3>
-                        <p>Developed a mobile-friendly website using HTML5, CSS3, and JavaScript.</p>
-                    </li>
-                    
+
                 </ul>
             </div>
 
             <div class="achievements">
-                <h3 class="section-title">Achievements</h3>
+                <h3 class="section-title">Certifications</h3>
                 <ul>
+                    <li>
+                        <h3>Java Full Stack Development - Accord Info Matrix<span class="date">2025</span></h3>
+                    </li>
                     <li>
                         <h3>Japanese Language Proficiency Test N4 <span class="date">2023</span></h3>
                     </li>
@@ -241,4 +270,5 @@
     </div>
 
 </body>
+
 </html>
